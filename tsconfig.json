@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"outDir": "dst/",
+		"lib": ["DOM","ES5"],
+		"target": "es2015",
+		"module": "es2015",
+		"sourceMap": true,
+		"allowJs": true,
+		"downlevelIteration": true,
+		"watch": false,
+	},
+	"watchDirectory": "fixedPollingInterval",
+	
+	"files": [
+		"src/lib.ts",
+		"src/game.ts",
+		"src/canvas.ts",
+		"src/sprites.ts",
+		"src/math.ts",
+		"src/util.ts"
+	]
+}
